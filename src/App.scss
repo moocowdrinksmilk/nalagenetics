@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+button{
+  height: 30px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+header{
+  top: 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100;
+  align-items: stretch;
+}
+
+
+#sidebar.active {
+  position: absolute;
+  left: -9999px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container{
+  margin-left: 5rem;
+  padding: 1rem;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  scroll-behavior: initial;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.container {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+}
+
+.front-page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem
+}
+
+body::-webkit-scrollbar-track{
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #61dafb;
+}
