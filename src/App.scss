@@ -15,6 +15,11 @@ header{
   top: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
 .wrapper {
   display: flex;
   width: 100;
@@ -33,9 +38,9 @@ header{
 }
 
 .container{
-  margin-left: 10rem;
+  margin-left: 18rem;
   padding: 0rem;
-
+  margin-right: 18rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -69,9 +74,10 @@ header{
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&display=swap');
 :root {
-  font-family: 'Open Sans';
-  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
 }
 
 .info {

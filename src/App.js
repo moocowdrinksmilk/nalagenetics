@@ -7,6 +7,9 @@ import SoftwareTesting from './stuff/softwareTesting';
 import SideBar from './stuff/sidebar'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import FrontendDev from './stuff/frontendDev';
+import BugFix from './stuff/bugFix';
+import WebScrape from './stuff/webScrape';
 
 AOS.init();
 
@@ -30,6 +33,9 @@ function App() {
     <div>
       <MyInfo/>
       <SoftwareTesting/>
+      <FrontendDev/>
+      <BugFix/>
+      <WebScrape/>
     </div>
   )
 }
