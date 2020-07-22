@@ -1,0 +1,12 @@
+.text {
+    width: 30rem;
+    justify-content: space-around;
+    float: left;
+}
+
+.inner{
+    font-size: 22px;
+    font-weight: 450;
+    margin-bottom: 1rem;
+    word-spacing: 0.1rem;
+}

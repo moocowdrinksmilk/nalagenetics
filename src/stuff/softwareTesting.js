@@ -1,23 +1,35 @@
 import React from "react";
 import "./softwareTesting.css";
-import SideBar from './sidebar'
-
+import SideBar from "./sidebar";
 
 function SoftwareTesting() {
   function Content() {
     return (
       <div className="container background">
         <div>
-          <div className="inner" data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
+          <div
+            className="inner"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-offset="500"
+          >
             <h1>Software testing</h1>
           </div>
           <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
-            I started off the internship by developing a full testing suite for
-            the Nalagenetics Webportal and API Servers.
-            <br></br>
-            <br></br>
-            I learnt to use Jest as the testing framework for both the
-            integration tests and the unit tests, and Cypress for end to end tests.
+            I wrote a fullsuite of testcases which covers both the API server
+            code and the Frontend webportal code. I wrote the unit and
+            integrations tests using Jest as a framework. By building unit and
+            integration tests. I learnt how to use assertions, spys and mocks to
+            test the functions and classes of the code, ensuring that errors
+            will be flagged out to the developer before deployment.
+          </p>
+
+          <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
+            I used Cypress for the end to end testcases. By learning how to
+            write these testcases, I exposed myself to research on good testing
+            methodology. Furthermore as a bonus, my knowledge of CSS selectors
+            has broadened which will help with future web development projects
+            of mine.
           </p>
 
           <img
@@ -39,9 +51,8 @@ function SoftwareTesting() {
   }
 
   return (
-      <div className='background'>
-    <SideBar/>
-    <Content/>
+    <div className="background">
+      <Content />
     </div>
   );
 }

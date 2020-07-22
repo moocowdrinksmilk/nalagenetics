@@ -46,6 +46,13 @@ function SideBar() {
   return (
     <nav className="nav-bar ">
       <ul className="nav-bar-nav">
+
+      <li class="nav-item">
+      <div className='chu'>
+          <a>Reflection</a>
+          </div>
+      </li>
+
         <li class="nav-item highlight">
           <div className='chu'>
           <a>Software Testing</a>
@@ -64,11 +71,7 @@ function SideBar() {
           </div>
       </li>
 
-      <li class="nav-item">
-      <div className='chu'>
-          <a>Web Scraping</a>
-          </div>
-      </li>
+      
 
       
       </ul>

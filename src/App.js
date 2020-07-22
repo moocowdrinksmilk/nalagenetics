@@ -31,11 +31,12 @@ function MyInfo() {
 function App() {
   return (
     <div>
+      <SideBar />
       <MyInfo/>
+      <WebScrape/>
       <SoftwareTesting/>
       <FrontendDev/>
       <BugFix/>
-      <WebScrape/>
     </div>
   )
 }
