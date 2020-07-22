@@ -1,0 +1,14 @@
+.inner {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+img{
+    width: 10rem;
+}
+
+.line{
+}

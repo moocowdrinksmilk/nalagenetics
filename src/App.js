@@ -3,8 +3,7 @@ import ReactDOM from'react-dom';
 import logo from './logo.svg';
 import './App.scss';
 import 'react-bootstrap';
-import NotMyInfo from './stuff/notmyinfo'
-import SoftwareTesting from './stuff/notmyinfo';
+import SoftwareTesting from './stuff/softwareTesting';
 import SideBar from './stuff/sidebar'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -29,7 +28,6 @@ function MyInfo() {
 function App() {
   return (
     <div>
-      <SideBar/>
       <MyInfo/>
       <SoftwareTesting/>
     </div>
