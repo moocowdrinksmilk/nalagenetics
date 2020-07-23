@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "858d527edbcb8677efa841e2c55b0a2d",
+    "revision": "0c12614b3b7eb3220322ef71cc38a90d",
     "url": "/nalagenetics/index.html"
   },
   {
