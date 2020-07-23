@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nalagenetics/static/css/main.2b7988e1.chunk.css",
-    "main.js": "/nalagenetics/static/js/main.61c38f66.chunk.js",
-    "main.js.map": "/nalagenetics/static/js/main.61c38f66.chunk.js.map",
+    "main.js": "/nalagenetics/static/js/main.c05f8b27.chunk.js",
+    "main.js.map": "/nalagenetics/static/js/main.c05f8b27.chunk.js.map",
     "runtime-main.js": "/nalagenetics/static/js/runtime-main.35e67e31.js",
     "runtime-main.js.map": "/nalagenetics/static/js/runtime-main.35e67e31.js.map",
     "static/css/2.4707e12a.chunk.css": "/nalagenetics/static/css/2.4707e12a.chunk.css",
     "static/js/2.7999099e.chunk.js": "/nalagenetics/static/js/2.7999099e.chunk.js",
     "static/js/2.7999099e.chunk.js.map": "/nalagenetics/static/js/2.7999099e.chunk.js.map",
     "index.html": "/nalagenetics/index.html",
-    "precache-manifest.ab5460e29f8f5123fb82c1b99ff90064.js": "/nalagenetics/precache-manifest.ab5460e29f8f5123fb82c1b99ff90064.js",
+    "precache-manifest.148a56cec79272b806116de60ccb5921.js": "/nalagenetics/precache-manifest.148a56cec79272b806116de60ccb5921.js",
     "service-worker.js": "/nalagenetics/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/nalagenetics/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.2b7988e1.chunk.css.map": "/nalagenetics/static/css/main.2b7988e1.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.7999099e.chunk.js",
     "static/css/main.2b7988e1.chunk.css",
-    "static/js/main.61c38f66.chunk.js"
+    "static/js/main.c05f8b27.chunk.js"
   ]
 }
