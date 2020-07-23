@@ -10,15 +10,17 @@ import 'aos/dist/aos.css';
 import FrontendDev from './stuff/frontendDev';
 import BugFix from './stuff/bugFix';
 import WebScrape from './stuff/webScrape';
+import {throttle} from 'lodash'
+import PersonalInfo from './stuff/personalinfo';
+
 
 AOS.init();
 
 function MyInfo() {
-  
 
   return (
-      <div className='container front-page background' data-aos="fade-up" data-aos-delay="500" data-aos-offset="200">
-        <h1 className=''>
+      <div className='front-page background' data-aos="fade-up" data-aos-delay="500" data-aos-offset="200">
+        <h1 className='container'>
           My Internship at Nalagenetics
         </h1>
       </div>
@@ -29,6 +31,11 @@ function MyInfo() {
 
 
 function App() {
+  // window.addEventListener('scroll', throttle(() => {
+  //   if (window.innerHeight >= 1200){
+  //   document.querySelector('.background').style.height = window.innerHeight + 'px'
+  //   }
+  // }), 2000)
   return (
     <div>
       <SideBar />
@@ -37,6 +44,7 @@ function App() {
       <SoftwareTesting/>
       <FrontendDev/>
       <BugFix/>
+      <PersonalInfo/>
     </div>
   )
 }

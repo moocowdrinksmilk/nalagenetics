@@ -1,0 +1,24 @@
+footer{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    min-width: 910px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.info{
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+}
+
+ul{
+    list-style-type: none;
+
+    display: block;
+}
+
+.logo{
+    margin-top: 2rem;
+    width: 10rem;
+}
+

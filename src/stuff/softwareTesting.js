@@ -5,16 +5,10 @@ import SideBar from "./sidebar";
 function SoftwareTesting() {
   function Content() {
     return (
-      <div className="container background">
-        <div>
-          <div
-            className="inner"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-offset="500"
-          >
-            <h1>Software testing</h1>
-          </div>
+      <div  className="background">
+        <div className='container'>
+          <h1 id="software-testing" data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">Software testing</h1>
+
           <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
             I wrote a fullsuite of testcases which covers both the API server
             code and the Frontend webportal code. I wrote the unit and
@@ -51,9 +45,8 @@ function SoftwareTesting() {
   }
 
   return (
-    <div className="background">
+    
       <Content />
-    </div>
   );
 }
 

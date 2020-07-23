@@ -3,16 +3,18 @@ import SideBar from "./sidebar";
 import "./webScrape.css";
 
 function WebScrape() {
-  function Content() {
+  
     return (
+        <div className='background'>
       <div
+        
         className="container"
         data-aos="fade-up"
         data-aos-delay="200"
         data-aos-offset="300"
       >
         <div>
-          <h1 data-aos="fade-up" data-aos-delay="200" data-aos-offset="200">
+          <h1 id='reflection' data-aos="fade-up" data-aos-delay="200" data-aos-offset="200">
             My reflections on this internship
           </h1>
           <div>
@@ -23,7 +25,7 @@ function WebScrape() {
                 data-aos-delay="400"
                 data-aos-offset="300"
               >
-                Nalagenetics is a mordern Bio-Technological company that
+                Nalagenetics is a modern Bio-Technological company that
                 provides genetic tests to patients through physicians,
                 determining the best course of medication for them through
                 Pharmacogenomics. As the company strives to improve their
@@ -94,15 +96,10 @@ function WebScrape() {
             </div>
           </div>
         </div>
+        </div>
       </div>
     );
   }
-  return (
-    <div className="background">
-      
-      <Content />
-    </div>
-  );
-}
+
 
 export default WebScrape;

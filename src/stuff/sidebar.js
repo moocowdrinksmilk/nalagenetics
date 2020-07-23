@@ -21,19 +21,22 @@ function SideBar() {
     let frontPage = document.querySelector('.front-page')
     let distanceFromTop = Math.abs(frontPage.getBoundingClientRect().top)
 
-    let index = ~~((distanceFromTop+(window.innerHeight/2))/window.innerHeight) + 1
+    let index = ~~((distanceFromTop+(window.innerHeight/1.9))/window.innerHeight) + 1
 
-
+    console.log(window.innerWidth);
     let pos;
-    if(index > 1){
-      document.querySelector(`.highlight`).classList.remove('highlight')
+    let ppos;
+    if(index > 1 && index <=5){
+      ppos = document.querySelector(`.highlight`).classList.remove('highlight')
       pos = document.querySelector(`.nav-item:nth-child(${index-1})`)
-      pos.classList.add('highlight')
-    }
+      if(pos) {
+        pos.classList.add('highlight')
+      }
+    } 
 
     
 
-    if(index === 1) {
+    if(index === 1 || window.innerWidth < 1400) {
       document.querySelector('.nav-bar').style.display = 'none'
     } else {
       document.querySelector('.nav-bar').style.display = 'inline-block'
@@ -49,25 +52,25 @@ function SideBar() {
 
       <li class="nav-item">
       <div className='chu'>
-          <a>Reflection</a>
+          <a href='#reflection'>Reflection</a>
           </div>
       </li>
 
         <li class="nav-item highlight">
           <div className='chu'>
-          <a>Software Testing</a>
+          <a href='#software-testing'>Software Testing</a>
           </div>
         </li>
 
         <li class="nav-item">
         <div className='chu'>
-          <a>Frontend Development</a>
+          <a href='#frontend-dev'>Frontend Development</a>
         </div>
       </li>
 
       <li class="nav-item">
       <div className='chu'>
-          <a>Bug Fixing</a>
+          <a href='#bugfix'>Bug Fixing</a>
           </div>
       </li>
 

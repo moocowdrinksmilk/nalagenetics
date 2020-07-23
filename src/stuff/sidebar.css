@@ -96,3 +96,12 @@ a{
   .fa-secondary {
     transition: 600ms;
   }
+
+  a{
+      text-decoration: none;
+      color: black;
+  }
+
+  a:hover{
+      text-decoration: underline;
+  }

@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+// html, body {
+//   max-width: 100%;
+//   overflow-x: hidden;
+// }
+
 button{
   height: 30px;
 }
@@ -38,9 +43,9 @@ h1{
 }
 
 .container{
-  margin-left: 18rem;
-  padding: 0rem;
-  margin-right: 30rem;
+ width: 30rem;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -86,8 +91,11 @@ h1{
 }
 
 .background {
-  min-height: 100vh;
+  min-height: -webkit-fill-available; 
   display: flex;
+  min-width: 910px;
+  margin-left: auto;
+  margin-bottom: 2rem;
 }
 
 .front-page{
