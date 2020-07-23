@@ -21,7 +21,7 @@ function SideBar() {
     let frontPage = document.querySelector('.front-page')
     let distanceFromTop = Math.abs(frontPage.getBoundingClientRect().top)
 
-    let index = ~~((distanceFromTop+(window.innerHeight/1.9))/window.innerHeight) + 1
+    let index = ~~((distanceFromTop+(window.innerHeight/2.2))/window.innerHeight) + 1
 
     console.log(window.innerWidth);
     let pos;

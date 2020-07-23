@@ -2,15 +2,16 @@ import React from "react";
 
 function FrontendDev() {
   return (
-    <div
-      
-      className="background"
-      data-aos="fade-up"
-      data-aos-delay="200"
-      data-aos-offset="500"
-    >
-      <div className='container'>
-        <h1 id='frontend-dev'>Frontend Development with Angular</h1>
+    <div className="background">
+      <div className="container">
+        <h1
+          id="frontend-dev"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-offset="500"
+        >
+          Frontend Development with Angular
+        </h1>
 
         <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
           I worked on creating the Medication Management feature on the patient
@@ -21,10 +22,10 @@ function FrontendDev() {
           hooks.
         </p>
         <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
-          As for working with Angular, I was able to employ many of the
-          features the framwork provides. I was introduced to structural
-          directives '(ngif/ngfor)', in the HTML code which honestly excited me
-          quite abit as it allowed you to put logic in HTML!
+          As for working with Angular, I was able to employ many of the features
+          the framwork provides. I was introduced to structural directives
+          '(ngif/ngfor)', in the HTML code which honestly excited me quite abit
+          as it allowed you to put logic in HTML!
         </p>
         <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="500">
           I got to work with reactive forms as well, where I worked with the

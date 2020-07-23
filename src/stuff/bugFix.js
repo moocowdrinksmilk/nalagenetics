@@ -2,15 +2,16 @@ import React from "react";
 
 function BugFix() {
   return (
-    <div
-      
-      className="background"
-      data-aos="fade-up"
-      data-aos-delay="200"
-      data-aos-offset="500"
-    >
-      <div className='container'>
-        <h1 id='bugfix' data-aos="fade-up" data-aos-delay="200" data-aos-offset="300">Bug Fixing on Angular and Node.js</h1>
+    <div className="background">
+      <div className="container">
+        <h1
+          id="bugfix"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-offset="300"
+        >
+          Bug Fixing on Angular and Node.js
+        </h1>
         <p>
           Finally, what do you call a software engineer that doesn't debug code?
           <br></br>
@@ -26,8 +27,8 @@ function BugFix() {
         </p>
         <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="300">
           By debugging on the Node.js codebase, I was able to understand how
-          Express.js is used as a framework to provide middlewares to enhance the
-          capabilities of the Node.js server.
+          Express.js is used as a framework to provide middlewares to enhance
+          the capabilities of the Node.js server.
         </p>
       </div>
     </div>
