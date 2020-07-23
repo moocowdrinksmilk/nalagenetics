@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "962b1d52e9ee6767a1d86a6568a29b8e",
+    "revision": "efc7eaa50a63dff37896dcab9fe62cde",
     "url": "/nalagenetics/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nalagenetics/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "8e3ef157222664408630",
+    "revision": "43168aa093d0e4f7b414",
     "url": "/nalagenetics/static/css/main.7f05be89.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nalagenetics/static/js/2.7999099e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e3ef157222664408630",
-    "url": "/nalagenetics/static/js/main.98c430f6.chunk.js"
+    "revision": "43168aa093d0e4f7b414",
+    "url": "/nalagenetics/static/js/main.a19e852a.chunk.js"
   },
   {
     "revision": "3ad22e3a073bc416994e",
