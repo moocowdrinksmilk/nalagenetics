@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nalagenetics/precache-manifest.d75478fbb0973c34c4749abd1d468632.js"
+  "/nalagenetics/precache-manifest.cbd2427d1b514252e52922cd26d388cb.js"
 );
 
 self.addEventListener('message', (event) => {
